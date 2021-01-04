@@ -20,7 +20,7 @@ spec:
        imagePullPolicy: Always
        ports:
        - containerPort: 80
-     - name: postgresql
+     - name: mongdb
        image: nielsbaptist/mongdb:latest
        imagePullPolicy: Always
        ports:
